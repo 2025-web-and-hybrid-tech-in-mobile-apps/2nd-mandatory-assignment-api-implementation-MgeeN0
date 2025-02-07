@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const passport = require('passport');
-const BasicStrategy = require('passport-http').BasicStrategy;
 const JwtStrategy = require('passport-jwt').Strategy;
 const extractJwt = require('passport-jwt').ExtractJwt;
 const jwt = require('jsonwebtoken');
